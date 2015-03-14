@@ -9,8 +9,8 @@ EXCLUDE_DIRECTORY=$5;
 DATE_AND_TIME=`date`
 HOSTNAME=`hostname`
 NOW=$(date +"%F")
-MASTER_LOGFILE="/adm/log/summary-rsync-$NOW.log"
-CURRENT_LOGFILE="/adm/log/detailed-rsync-$NOW.log"
+MASTER_LOGFILE="/var/log/summary-rsync-$NOW.log"
+CURRENT_LOGFILE="/var/log/detailed-rsync-$NOW.log"
 
 helpinfo() {
 cat<<EOF
